@@ -34,13 +34,13 @@ Connection ~ 7050 4800
 $Comp
 L Connector:Screw_Terminal_01x02 J4
 U 1 1 5FC19214
-P 6300 2850
-F 0 "J4" H 6218 3067 50  0000 C CNN
-F 1 "Screw_Terminal_01x02" H 6218 2976 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal" H 6300 2850 50  0001 C CNN
-F 3 "~" H 6300 2850 50  0001 C CNN
-	1    6300 2850
-	-1   0    0    -1  
+P 6300 2950
+F 0 "J4" H 6218 3167 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 6218 3076 50  0000 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal" H 6300 2950 50  0001 C CNN
+F 3 "~" H 6300 2950 50  0001 C CNN
+	1    6300 2950
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR018

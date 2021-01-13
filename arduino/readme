@@ -1,1 +1,15 @@
 Controlling the MPPT Evaluation Board with the Arduino ESP 32 DOIT (30 Pin Version)
+
+Running:
+
+Hold Boot/FLASH button while ESP32 is connecting to the board or to make the ESP32 board go into uploading mode automatically, 
+solder a 10uF capacitor between EN and and GND pins. Otherwise, board will fail to connect and spit out a "waiting for packet header" error
+
+
+I2C_AD5245_ESP32Test.ino Wiring Procedure:
+
+(ESP32     MPPTEvalBoard) 
+(J1-2      J1-7) 
+(J2-1      J2-1) 
+(J2-14     J1-4) 
+(J2-17     J1-3) 

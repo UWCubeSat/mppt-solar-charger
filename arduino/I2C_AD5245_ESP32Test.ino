@@ -10,21 +10,13 @@
  #include <Wire.h>
 
  /* Define pins */
- #define SDA 21;
- #define SCL 22;
- #define CSB 3;
- #define SDO 1;
+ #define SDA 21
+ #define SCL 22
+ #define CSB 3
+ #define SDO 1
  
 void setup() {
   Wire.begin(); // join i2c bus
-  pinMode(SDA, OUTPUT);
-  pinMode(SCL, OUTPUT);
-
-  /* SCL and SDA are active low */
-  digitalWrite(SCL, HIGH);
-  digitalWrite(SDA, HIGH);
-  delay(1); 
-  digitalWrite(SDA, LOW); 
 }
 
 byte val = 0; 
